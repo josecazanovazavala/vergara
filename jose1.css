@@ -1,0 +1,86 @@
+header {
+   background-color: rgb(0, 46, 131);
+    width: 100%;
+   position:fixed;
+   z-index:100;
+   top:0;
+   left: 0;
+
+}
+.logo  {
+  margin-left: 220px;
+
+}
+img{
+    width:200px;
+
+    
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+   overflow: hidden;
+   gap:15px;
+   padding: 0;
+
+}
+
+nav {
+    float: right;
+}
+
+
+nav ul li {
+    float: right;
+     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+nav ul li a {
+    display: flex;
+    color:white;
+    text-decoration: none;
+    padding: 20px;
+
+}
+.grillas {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(200px,max-content));
+    margin-top:7%;
+   margin-left: 320px;
+}
+.grilla1 {
+    background-color:rgba(#9b9797, rgb(134, 137, 134), rgb(133, 133, 133), alpha);
+    padding: 5px;
+    border:1px solid #867c7c;
+    box-shadow: #f2e9e9;
+    gap:5px;
+}
+.grilla1 img {
+    width:90px;
+    height: 120px;
+    justify-content: center;
+
+  padding: 20px;
+ 
+}
+.grilla1 h5 {
+    justify-content: center;
+    margin-top: 25px;
+      font-family:Arial, Helvetica, sans-serif;
+      font-size: 15px;
+      text-decoration: none;
+    
+}
+.grilla1 button {
+    margin-top: 30px;
+    background-color: rgb(195, 24, 24);
+    padding: 10px;
+    border-radius: 5px;   
+     color: white;
+    text-decoration: none;
+    width: 220px;
+    border: none;
+
+    }
